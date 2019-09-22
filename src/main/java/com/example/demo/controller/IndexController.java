@@ -8,6 +8,6 @@ public class IndexController {
 
 	@RequestMapping("/login.go")
 	public String getLogin() {
-		return "user/login";
+		return "login/index";
 	}
 }
